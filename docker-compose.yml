@@ -1,0 +1,20 @@
+services:
+  mmamaritime:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: mmamaritime
+    restart: unless-stopped
+    env_file: .env.local
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    expose:
+      - "3000"
+    networks:
+      - web
+
+# Réseau partagé avec le reverse proxy Nginx global
+networks:
+  web:
+    external: true
