@@ -443,17 +443,143 @@ h1.title {
 </div>
 
 <script>
-/* ── CANVAS PARTICLES ─────────────────────────── */
+/* ── CANVAS : GRID + SHIPS + PARTICLES ────────── */
 (function(){
-  const cv = document.getElementById('bg');
-  const cx = cv.getContext('2d');
-  const N = 75;
-  const pts = [];
+  var cv = document.getElementById('bg');
+  var cx = cv.getContext('2d');
 
   function resize(){
     cv.width  = window.innerWidth;
     cv.height = window.innerHeight;
   }
+
+  /* ── Nautical grid ── */
+  function drawGrid(){
+    var W = cv.width, H = cv.height;
+    var step = 120;
+    cx.save();
+    /* minor lines */
+    cx.strokeStyle = 'rgba(28,165,165,0.032)';
+    cx.lineWidth   = 0.5;
+    for(var x = 0; x < W; x += step){
+      cx.beginPath(); cx.moveTo(x,0); cx.lineTo(x,H); cx.stroke();
+    }
+    for(var y = 0; y < H; y += step){
+      cx.beginPath(); cx.moveTo(0,y); cx.lineTo(W,y); cx.stroke();
+    }
+    /* major lines every 4th */
+    cx.strokeStyle = 'rgba(201,162,75,0.045)';
+    cx.lineWidth   = 0.8;
+    for(var x = 0; x < W; x += step*4){
+      cx.beginPath(); cx.moveTo(x,0); cx.lineTo(x,H); cx.stroke();
+    }
+    for(var y = 0; y < H; y += step*4){
+      cx.beginPath(); cx.moveTo(0,y); cx.lineTo(W,y); cx.stroke();
+    }
+    cx.restore();
+  }
+
+  /* ── Ship system ── */
+  var TYPES = [
+    { rgb:'201,162,75',  sz:9,  spd:.42, tlen:72, w:0 },      /* cargo — gold */
+    { rgb:'28,165,165',  sz:7,  spd:.55, tlen:65, w:0 },      /* container — teal */
+    { rgb:'190,120,60',  sz:10, spd:.32, tlen:78, w:0 },      /* tanker — amber */
+    { rgb:'160,200,210', sz:5,  spd:.22, tlen:45, w:.005 }    /* fishing — white-blue, meanders */
+  ];
+  var WEIGHTS = [.38, .35, .18, .09];
+
+  function pickType(){
+    var r = Math.random(), a = 0;
+    for(var i = 0; i < WEIGHTS.length; i++){
+      a += WEIGHTS[i]; if(r < a) return i;
+    }
+    return 0;
+  }
+
+  function Ship(fresh){
+    var ti = pickType(), t = TYPES[ti];
+    this.rgb   = t.rgb;
+    this.sz    = t.sz  + Math.random() * 2.5;
+    this.spd   = t.spd + Math.random() * .15;
+    this.tlen  = t.tlen;
+    this.wand  = t.w;
+    this.trail = [];
+    this.spawn(fresh);
+  }
+
+  Ship.prototype.spawn = function(fresh){
+    var pad = 80, W = cv.width, H = cv.height;
+    if(fresh){
+      this.x = Math.random() * W;
+      this.y = Math.random() * H;
+    } else {
+      var e = Math.floor(Math.random()*4);
+      if(e===0){ this.x = Math.random()*W; this.y = -pad; }
+      else if(e===1){ this.x = W+pad; this.y = Math.random()*H; }
+      else if(e===2){ this.x = Math.random()*W; this.y = H+pad; }
+      else{ this.x = -pad; this.y = Math.random()*H; }
+    }
+    /* heading toward a random interior point */
+    var tx = W*.15 + Math.random()*W*.70;
+    var ty = H*.15 + Math.random()*H*.70;
+    this.hdg = Math.atan2(ty - this.y, tx - this.x);
+    this.vx  = Math.cos(this.hdg) * this.spd;
+    this.vy  = Math.sin(this.hdg) * this.spd;
+    this.trail = [];
+  };
+
+  Ship.prototype.tick = function(){
+    this.trail.push({x:this.x, y:this.y});
+    if(this.trail.length > this.tlen) this.trail.shift();
+    if(this.wand){
+      this.hdg += (Math.random()-.5) * this.wand * 2;
+      this.vx = Math.cos(this.hdg)*this.spd;
+      this.vy = Math.sin(this.hdg)*this.spd;
+    }
+    this.x += this.vx;
+    this.y += this.vy;
+    var pad=130, W=cv.width, H=cv.height;
+    if(this.x<-pad||this.x>W+pad||this.y<-pad||this.y>H+pad) this.spawn(false);
+  };
+
+  Ship.prototype.draw = function(){
+    var rgb = this.rgb, tl = this.trail;
+    /* wake / trail */
+    if(tl.length > 1){
+      for(var i = 1; i < tl.length; i++){
+        var prog = i/tl.length;
+        cx.beginPath();
+        cx.moveTo(tl[i-1].x, tl[i-1].y);
+        cx.lineTo(tl[i].x,   tl[i].y);
+        cx.strokeStyle = 'rgba('+rgb+','+(prog*.20)+')';
+        cx.lineWidth   = prog * 1.6;
+        cx.stroke();
+      }
+    }
+    /* AIS icon — triangle pointing in heading direction */
+    var s = this.sz;
+    cx.save();
+    cx.translate(this.x, this.y);
+    cx.rotate(this.hdg + Math.PI/2); /* +90° because shape points up */
+    cx.shadowColor = 'rgba('+rgb+',.55)';
+    cx.shadowBlur  = 7;
+    cx.beginPath();
+    cx.moveTo(0,   -s);          /* bow */
+    cx.lineTo(-s*.38, s*.52);   /* stern port */
+    cx.lineTo(0,    s*.18);      /* stern centre notch */
+    cx.lineTo( s*.38, s*.52);   /* stern starboard */
+    cx.closePath();
+    cx.fillStyle = 'rgba('+rgb+',.82)';
+    cx.fill();
+    cx.shadowBlur = 0;
+    cx.restore();
+  };
+
+  var SHIP_COUNT = 14;
+  var ships = [];
+
+  /* ── Particles ── */
+  var N = 75, pts = [];
 
   function Particle(init){
     this.reset = function(boot){
@@ -485,9 +611,12 @@ h1.title {
 
   resize();
   for(var i = 0; i < N; i++) pts.push(new Particle(true));
+  for(var i = 0; i < SHIP_COUNT; i++) ships.push(new Ship(true));
 
   (function loop(){
     cx.clearRect(0, 0, cv.width, cv.height);
+    drawGrid();
+    ships.forEach(function(s){ s.tick(); s.draw(); });
     pts.forEach(function(p){ p.tick(); p.draw(); });
     requestAnimationFrame(loop);
   })();
