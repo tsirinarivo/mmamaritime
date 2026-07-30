@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none" role="img" aria-label="MMA — Madagascar Maritime Agency">
+  <!-- Anchor mark in circle -->
+  <circle cx="28" cy="28" r="26" stroke="#0A2A43" stroke-width="2" fill="none"/>
+  <path d="M28 14v28M20 22h16M22 36c0 0-2 4-8 4M34 36c0 0 2 4 8 4" stroke="#C9A24B" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="28" cy="18" r="4" fill="#0A2A43"/>
+  <!-- MMA text -->
+  <text x="62" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="18" fill="#0A2A43" letter-spacing="-0.5">MMA</text>
+  <!-- Tagline -->
+  <text x="62" y="40" font-family="system-ui, sans-serif" font-weight="400" font-size="8.5" fill="#0A2A43" letter-spacing="1.5">MADAGASCAR MARITIME AGENCY</text>
+</svg>

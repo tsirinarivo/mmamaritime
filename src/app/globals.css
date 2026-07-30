@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-body text-navy antialiased;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .container-mma {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-gold text-navy font-sans font-semibold px-8 py-4 rounded-sm transition-all duration-300 hover:bg-gold-300 hover:shadow-lg hover:shadow-gold/20 focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 border border-gold/60 text-gold font-sans font-medium px-8 py-4 rounded-sm transition-all duration-300 hover:bg-gold/10 hover:border-gold focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2 focus:ring-offset-navy;
+  }
+
+  .btn-outline-navy {
+    @apply inline-flex items-center gap-2 border-2 border-navy text-navy font-sans font-semibold px-8 py-4 rounded-sm transition-all duration-300 hover:bg-navy hover:text-white focus:outline-none focus:ring-2 focus:ring-navy focus:ring-offset-2;
+  }
+
+  .gold-line {
+    @apply block w-12 h-0.5 bg-gold;
+  }
+
+  .section-tag {
+    @apply inline-flex items-center gap-2 text-gold font-sans font-medium text-sm tracking-widest uppercase;
+  }
+
+  .page-hero-overlay {
+    @apply absolute inset-0 bg-gradient-to-b from-navy/80 via-navy/60 to-navy/80;
+  }
+}

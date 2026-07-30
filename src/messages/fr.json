@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "description": "Madagascar Maritime Agency — agence maritime agréée APMF proposant la consignation de navires, le manning et la logistique portuaire dans tous les ports de Madagascar.",
+    "homeTitle": "Agence Maritime Madagascar — Consignation, Manning & Logistique Portuaire",
+    "homeDescription": "MMA est votre partenaire maritime de confiance à Madagascar. Consignation de navires, recrutement de marins (MLC 2006), transport et logistique portuaire — disponible 24h/24, 7j/7 dans tous les grands ports malgaches."
+  },
+  "nav": {
+    "services": "Services",
+    "consignation": "Consignation navire",
+    "manning": "Manning & Crewing",
+    "logistique": "Logistique portuaire",
+    "ports": "Nos ports",
+    "about": "À propos",
+    "contact": "Contact",
+    "requestCall": "Demander une escale",
+    "language": "Langue"
+  },
+  "hero": {
+    "tagline": "Agence Maritime Agréée — Madagascar",
+    "title": "Votre partenaire de confiance dans les ports de Madagascar",
+    "subtitle": "De Toamasina à Ehoala, MMA assure la consignation de vos navires, le placement de vos équipages et la logistique de vos marchandises. Disponible 24h/24, 365 jours par an.",
+    "ctaPrimary": "Demander une escale",
+    "ctaSecondary": "Découvrir nos services",
+    "availabilityBadge": "Disponible 24h/24 — 365 jours",
+    "scrollHint": "Défiler"
+  },
+  "trust": {
+    "title": "La référence maritime à Madagascar",
+    "portsCount": "6",
+    "portsLabel": "Ports couverts",
+    "disponibility": "24/7",
+    "disponibilityLabel": "Disponibilité permanente",
+    "experience": "+15 ans",
+    "experienceLabel": "D'expérience maritime",
+    "conformity": "APMF",
+    "conformityLabel": "Agence agréée"
+  },
+  "services": {
+    "title": "Nos prestations maritimes",
+    "subtitle": "Un portefeuille de services intégrés pour répondre à chaque besoin de l'armateur, du transitaire et de l'opérateur portuaire.",
+    "consignation": {
+      "title": "Consignation de navires",
+      "description": "Prise en charge complète de l'escale : formalités douanières et portuaires, liaisons avec les autorités, gestion des opérations à bord et suivi en temps réel jusqu'à l'appareillage.",
+      "features": [
+        "Gestion des formalités d'entrée et sortie de port",
+        "Liaison avec la Capitainerie et les autorités portuaires",
+        "Coordination des opérations de chargement et déchargement",
+        "Assistance avitaillement (combustible, eau, provisions)",
+        "Gestion des changements d'équipage (crew change)",
+        "Réception de pièces détachées et courrier de bord",
+        "Assistance médicale et rapatriement",
+        "Compte d'escale détaillé"
+      ],
+      "cta": "En savoir plus"
+    },
+    "manning": {
+      "title": "Manning & Crewing",
+      "description": "Recrutement, sélection et placement de marins malgaches qualifiés selon les exigences de la Convention MLC 2006. Agence agréée APMF, nous gérons l'ensemble du cycle de vie contractuel.",
+      "features": [
+        "Recrutement de marins brevetés et non brevetés",
+        "Vérification des certificats STCW et documents de bord",
+        "Gestion des contrats d'engagement maritime (MLC 2006)",
+        "Coordination des visites médicales réglementaires",
+        "Organisation des vols et transit des équipages",
+        "Gestion des salaires et virements bancaires",
+        "Rapatriement en cas d'urgence",
+        "Base de données de marins qualifiés disponibles"
+      ],
+      "cta": "En savoir plus"
+    },
+    "logistique": {
+      "title": "Logistique portuaire",
+      "description": "Transport terrestre, manutention et fret entre les ports malgaches et l'intérieur du pays. Nous coordonnons l'ensemble de la chaîne logistique pour garantir la fluidité de vos opérations.",
+      "features": [
+        "Transport de conteneurs et marchandises hors-gabarit",
+        "Groupage et dégroupage de fret",
+        "Déclarations en douane et formalités d'importation/exportation",
+        "Entreposage sécurisé en zone portuaire",
+        "Suivi de cargaison en temps réel",
+        "Coordination avec les terminaux et opérateurs portuaires",
+        "Transport réfrigéré pour marchandises périssables",
+        "Gestion de projets industriels et miniers"
+      ],
+      "cta": "En savoir plus"
+    }
+  },
+  "whyMma": {
+    "title": "Pourquoi choisir MMA ?",
+    "subtitle": "Quinze années de présence active dans les ports malgaches ont forgé notre expertise. Nous ne sommes pas un intermédiaire : nous sommes une extension opérationnelle de votre armement sur place.",
+    "items": [
+      {
+        "title": "Réactivité 24h/24",
+        "description": "Un correspondant joignable à toute heure, tous les jours de l'année. Les escales n'attendent pas les horaires de bureau."
+      },
+      {
+        "title": "Présence locale forte",
+        "description": "Équipes basées dans les six ports couverts. Nous connaissons les autorités, les terminaux et les prestataires locaux."
+      },
+      {
+        "title": "Conformité totale",
+        "description": "Agrément APMF, respect scrupuleux de la MLC 2006 et des conventions internationales. Zéro tolérance pour la non-conformité."
+      },
+      {
+        "title": "Réseau international",
+        "description": "Partenariats avec des agences maritimes dans l'Océan Indien et au-delà pour une coordination fluide sur les lignes régionales."
+      }
+    ]
+  },
+  "ports": {
+    "title": "Ports couverts à Madagascar",
+    "subtitle": "MMA est opérationnelle dans les six principaux ports commerciaux de Madagascar, du nord au sud.",
+    "list": [
+      {
+        "name": "Toamasina",
+        "alias": "Tamatave",
+        "region": "Côte Est",
+        "description": "Premier port de Madagascar et hub de transit régional. MMA y dispose de son siège opérationnel.",
+        "principal": true,
+        "traffic": "70% du trafic national"
+      },
+      {
+        "name": "Ehoala",
+        "alias": "Fort-Dauphin",
+        "region": "Côte Sud-Est",
+        "description": "Port en eau profonde développé pour l'exportation minière (ilménite). Infrastructure moderne dédiée aux vraquiers.",
+        "principal": false,
+        "traffic": "Port minier QMM-Rio Tinto"
+      },
+      {
+        "name": "Mahajanga",
+        "alias": "Majunga",
+        "region": "Côte Nord-Ouest",
+        "description": "Deuxième port commercial du pays, gateway vers l'Afrique de l'Est et les Comores.",
+        "principal": false,
+        "traffic": "Trafic régional Afrique de l'Est"
+      },
+      {
+        "name": "Antsiranana",
+        "alias": "Diego-Suarez",
+        "region": "Extrême-Nord",
+        "description": "Rade naturelle exceptionnelle au nord de Madagascar. Escales techniques et soutage pour navires en transit.",
+        "principal": false,
+        "traffic": "Navires en transit & escales techniques"
+      },
+      {
+        "name": "Nosy Be",
+        "alias": "Hell-Ville",
+        "region": "Nord-Ouest",
+        "description": "Port touristique et de pêche. Gestion des yachts, bateaux de croisière et navires de recherche scientifique.",
+        "principal": false,
+        "traffic": "Yachts, croisières & pêche hauturière"
+      },
+      {
+        "name": "Toliara",
+        "alias": "Tuléar",
+        "region": "Côte Sud-Ouest",
+        "description": "Port du sud malgache. Trafic de marchandises générales, sel et activités halieutiques.",
+        "principal": false,
+        "traffic": "Marchandises générales & sel"
+      }
+    ]
+  },
+  "process": {
+    "title": "Le déroulement d'une escale",
+    "subtitle": "De la première notification à l'appareillage, notre équipe assure chaque étape avec rigueur et transparence.",
+    "steps": [
+      {
+        "number": "01",
+        "label": "J-72h",
+        "title": "Pré-notification",
+        "description": "Réception de l'avis d'escale, coordination avec la Capitainerie, réservation de poste à quai et transmission des documents réglementaires aux autorités portuaires."
+      },
+      {
+        "number": "02",
+        "label": "J-24h",
+        "title": "Formalités d'escale",
+        "description": "Dépôt des déclarations douanières, sanitaires et d'immigration. Confirmation des services requis : pilotage, remorquage, lamanage et avitaillement."
+      },
+      {
+        "number": "03",
+        "label": "Arrivée",
+        "title": "Accueil au port",
+        "description": "Présence à quai lors de l'accostage. Accueil du commandant, inspection initiale, mise à disposition des services coordonnés et remise des documents de bord."
+      },
+      {
+        "number": "04",
+        "label": "Escale",
+        "title": "Opérations à bord",
+        "description": "Supervision des opérations cargo, gestion des interventions techniques, change d'équipage, réception de pièces et approvisionnements, suivi des prestataires."
+      },
+      {
+        "number": "05",
+        "label": "Départ",
+        "title": "Appareillage & suivi",
+        "description": "Clôture des formalités de sortie, établissement du compte d'escale détaillé et transmission du rapport d'escale complet à l'armateur dans les 24 heures."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à planifier votre prochaine escale ?",
+    "subtitle": "Contactez notre équipe disponible 24h/24. Nous répondons dans l'heure.",
+    "ctaPrimary": "Demander une escale",
+    "ctaSecondary": "Nous appeler",
+    "phone": "+261 37 17 777 77",
+    "email": "contact@mmamaritime.com"
+  },
+  "contact": {
+    "title": "Prenons contact",
+    "subtitle": "Notre équipe est disponible 24h/24, 7j/7. Réponse garantie dans l'heure pour toute demande d'escale.",
+    "address": "Zone Portuaire, Toamasina 501, Madagascar",
+    "phone": "+261 37 17 777 77",
+    "email": "contact@mmamaritime.com",
+    "hours": "Disponible 24h/24 — 365 jours/an",
+    "formTitle": "Envoyer une demande",
+    "nameLabel": "Nom complet",
+    "namePlaceholder": "Capitaine Jean Dupont",
+    "emailLabel": "Adresse email",
+    "emailPlaceholder": "jean.dupont@armement.com",
+    "companyLabel": "Armement / Société",
+    "companyPlaceholder": "MSC Mediterranean Shipping",
+    "vesselLabel": "Nom du navire",
+    "vesselPlaceholder": "MV Pacific Star",
+    "portLabel": "Port d'escale",
+    "portPlaceholder": "Sélectionner un port",
+    "typeLabel": "Type de prestation",
+    "typePlaceholder": "Sélectionner un service",
+    "messageLabel": "Message / Détails de l'escale",
+    "messagePlaceholder": "Date d'arrivée estimée, nature de la cargaison, services requis...",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi en cours...",
+    "success": "Votre demande a bien été reçue. Notre équipe vous contacte dans l'heure.",
+    "error": "Une erreur est survenue. Veuillez réessayer ou nous appeler directement.",
+    "serviceTypes": [
+      "Consignation de navire",
+      "Manning / Recrutement d'équipage",
+      "Logistique portuaire",
+      "Avitaillement",
+      "Changement d'équipage",
+      "Autre prestation"
+    ],
+    "portOptions": [
+      "Toamasina (Tamatave)",
+      "Ehoala (Fort-Dauphin)",
+      "Mahajanga (Majunga)",
+      "Antsiranana (Diego-Suarez)",
+      "Nosy Be",
+      "Toliara (Tuléar)"
+    ]
+  },
+  "footer": {
+    "description": "Agence maritime agréée APMF proposant la consignation de navires, le manning et la logistique portuaire dans tous les grands ports de Madagascar depuis plus de 15 ans.",
+    "servicesTitle": "Services",
+    "portsTitle": "Ports",
+    "infoTitle": "Informations",
+    "contactTitle": "Contact",
+    "about": "À propos de MMA",
+    "blog": "Actualités maritimes",
+    "careers": "Recrutement",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "legalNotice": "Mentions légales",
+    "copyright": "© {year} Madagascar Maritime Agency. Tous droits réservés.",
+    "tagline": "Disponible 24h/24 — 365 jours/an",
+    "address": "Zone Portuaire, Toamasina 501",
+    "country": "Madagascar"
+  },
+  "pages": {
+    "consignation": {
+      "heroTag": "Service de consignation",
+      "heroTitle": "Consignation de navires à Madagascar",
+      "heroSubtitle": "Une gestion d'escale rigoureuse, de la pré-arrivée à l'appareillage, dans tous les ports commerciaux malgaches.",
+      "introTitle": "L'agent consignataire : votre représentant à quai",
+      "introText": "En tant qu'agent consignataire, MMA agit au nom de l'armateur et du capitaine pour coordonner l'ensemble des opérations portuaires. Notre rôle est d'anticiper, d'organiser et de résoudre — afin que votre navire passe le moins de temps possible à quai et reparte dans les meilleures conditions.",
+      "servicesTitle": "Nos prestations de consignation",
+      "servicesItems": [
+        {
+          "title": "Formalités d'entrée et sortie",
+          "description": "Gestion complète des déclarations auprès de la douane, de l'immigration, des services sanitaires (Santé Maritime) et de la Capitainerie. Transmission électronique des documents réglementaires avant l'arrivée."
+        },
+        {
+          "title": "Coordination portuaire",
+          "description": "Réservation du poste à quai, coordination du pilotage, du remorquage et du lamanage. Liaison permanente avec l'Autorité Portuaire (SPAT) et l'APMF."
+        },
+        {
+          "title": "Opérations cargo",
+          "description": "Supervision du chargement et du déchargement, coordination avec les sociétés de manutention, vérification des manifestes et des connaissements, suivi des délais opérationnels."
+        },
+        {
+          "title": "Avitaillement & soutage",
+          "description": "Coordination de l'avitaillement en combustible (HFO, VLSFO, MGO), eau douce, provisions et équipements de sécurité. Gestion des formalités douanières pour les produits pétroliers."
+        },
+        {
+          "title": "Changement d'équipage",
+          "description": "Organisation complète des relèves d'équipage : vols, transit à l'aéroport, hébergement, visas, formalités d'immigration et coordination avec les autorités maritimes."
+        },
+        {
+          "title": "Assistance médicale",
+          "description": "Évacuation médicale, orientation vers les hôpitaux partenaires, assistance administrative pour les soins et prise en charge des formalités d'assurance."
+        },
+        {
+          "title": "Réception de pièces et courrier",
+          "description": "Prise en charge des envois urgents de pièces détachées : dédouanement accéléré, transit depuis l'aéroport, livraison à bord dans les meilleurs délais."
+        },
+        {
+          "title": "Compte d'escale transparent",
+          "description": "Établissement d'un compte d'escale détaillé avec justificatifs pour chaque dépense. Pré-financement des disbursements et récupération dans les délais convenus."
+        }
+      ],
+      "faqTitle": "Questions fréquentes des armateurs",
+      "faqs": [
+        {
+          "question": "Dans quels délais MMA peut-elle répondre à une demande d'escale urgente ?",
+          "answer": "Notre équipe est disponible 24h/24. Pour une escale urgente, nous accusons réception dans l'heure et activons immédiatement nos contacts auprès de la Capitainerie et de l'Autorité Portuaire. Un ETA (Estimated Time of Arrival) minimum de 48 heures est recommandé, mais nous pouvons gérer des situations d'urgence avec des délais plus courts."
+        },
+        {
+          "question": "Quelle est la procédure pour une première escale à Toamasina ?",
+          "answer": "Pour un premier appel, nous vous demandons de nous transmettre le nom du navire, son IMO, le nom du propriétaire/opérateur, l'ETA, la nature de la cargaison et les services requis. Nous préparons ensuite un devis d'escale prévisionnel et vous guidons dans les démarches administratives spécifiques au port."
+        },
+        {
+          "question": "Comment se déroule la facturation et le règlement du compte d'escale ?",
+          "answer": "Nous établissons un compte d'escale prévisionnel avant l'arrivée du navire. Un acompte peut être demandé pour les navires en premier appel. Le compte d'escale final, accompagné de tous les justificatifs originaux, vous est transmis dans les 7 jours suivant l'appareillage. Les règlements s'effectuent par virement bancaire international."
+        },
+        {
+          "question": "MMA est-elle en mesure de gérer les navires de grande taille à Toamasina ?",
+          "answer": "Oui. Le port de Toamasina accueille des navires jusqu'à 300 mètres de long et 12,5 mètres de tirant d'eau (en conditions optimales). Nous gérons régulièrement des porte-conteneurs de grande capacité, des vraquiers et des tankers. Nous pouvons vous fournir les informations précises sur les contraintes nautiques du port sur demande."
+        },
+        {
+          "question": "Proposez-vous des services en dehors des heures ouvrables ?",
+          "answer": "Absolument. Les opérations maritimes ne s'arrêtent pas la nuit ni les week-ends. Notre permanence téléphonique est opérationnelle 24h/24, 365 jours par an. Un agent de permanence est toujours joignable pour les urgences et les arrivées nocturnes."
+        }
+      ]
+    },
+    "manning": {
+      "heroTag": "Manning & Crewing",
+      "heroTitle": "Recrutement et placement de marins malgaches",
+      "heroSubtitle": "Agence de manning agréée APMF, conforme à la Convention MLC 2006. Accès à un vivier de marins qualifiés STCW prêts à embarquer.",
+      "introTitle": "Des marins malgaches, une main-d'œuvre maritime reconnue",
+      "introText": "Madagascar dispose d'une tradition maritime forte et d'une main-d'œuvre navigante qualifiée. MMA vous donne accès à ce vivier tout en garantissant la conformité totale avec les exigences légales malgaches et les conventions internationales, notamment la MLC 2006 et les certifications STCW.",
+      "servicesTitle": "Nos prestations de manning",
+      "servicesItems": [
+        {
+          "title": "Recrutement & sélection",
+          "description": "Sourcing, présélection sur CV, entretiens et évaluation des compétences techniques pour tous les grades : officiers pont, officiers machine, personnels subalternes."
+        },
+        {
+          "title": "Vérification des certifications",
+          "description": "Contrôle systématique des brevets STCW, livrets maritimes, certificats médicaux ENG1 et tous documents réglementaires. Liaisons directes avec l'APMF pour les vérifications d'authenticité."
+        },
+        {
+          "title": "Gestion contractuelle MLC 2006",
+          "description": "Rédaction et gestion des Contrats d'Engagement Maritime (CEM) conformes à la MLC 2006 : rémunération minimale, conditions de travail, rapatriement, assurance."
+        },
+        {
+          "title": "Coordination des embarquements",
+          "description": "Organisation des vols et transports, gestion des visas et des formalités d'immigration, accueil à l'aéroport et acheminement à bord dans n'importe quel port du monde."
+        },
+        {
+          "title": "Gestion des salaires",
+          "description": "Administration de la paie, virements bancaires, gestion des allotissements familiaux et déclarations sociales conformes à la législation malgache."
+        },
+        {
+          "title": "Suivi et support continu",
+          "description": "Point de contact permanent entre l'armateur, le marin et sa famille. Gestion des urgences : maladies, rapatriements, accidents du travail et litiges contractuels."
+        }
+      ],
+      "mlcTitle": "Conformité MLC 2006",
+      "mlcText": "La Convention du Travail Maritime 2006 (MLC 2006) est le pilier de notre activité de manning. Nous garantissons que chaque contrat, chaque condition d'emploi et chaque rapatriement respecte intégralement les dispositions de cette convention internationale. Notre statut d'agence agréée APMF atteste de notre conformité auprès des autorités malgaches.",
+      "faqTitle": "Questions fréquentes",
+      "faqs": [
+        {
+          "question": "Quels grades de marins pouvez-vous recruter ?",
+          "answer": "Nous recrutons tous les grades : Capitaine, Chef Mécanicien, Officiers de navigation (pont et machine), Bossman, Maîtres d'hôtel, Cuisiniers, Matelots, Graisseurs, Électriciens et personnels hôteliers pour les navires à passagers. Notre base de données compte plusieurs centaines de profils actifs."
+        },
+        {
+          "question": "Quels sont les délais habituels de recrutement ?",
+          "answer": "Pour des profils standards (matelots, subalterns), nous pouvons mobiliser des candidats en 48 à 72 heures. Pour des officiers brevetés, comptez 1 à 2 semaines selon la spécialité. Nous maintenons une liste de marins disponibles immédiatement pour les urgences."
+        },
+        {
+          "question": "Les marins malgaches ont-ils les certifications STCW à jour ?",
+          "answer": "Oui. Nous ne plaçons que des marins dont les certifications STCW (Manila Amendments), les livrets maritimes et les certificats médicaux sont en cours de validité. Nous procédons à une vérification systématique et pouvons vous fournir les originaux ou copies certifiées de tous les documents."
+        },
+        {
+          "question": "Comment sont gérés les rapatriements en urgence ?",
+          "answer": "En cas de rapatriement urgent (accident, maladie grave, décès familial), nous activons immédiatement notre réseau. Nous gérons les démarches consulaires, l'achat des billets d'avion, la coordination avec le port d'appareillage et les autorités locales. Nous avons des procédures établies pour agir en moins de 24 heures."
+        },
+        {
+          "question": "Quelle est votre couverture géographique pour les débarquements ?",
+          "answer": "Nous gérons les débarquements de marins malgaches dans tous les ports du monde où nos partenaires d'agences maritimes sont présents. Notre réseau couvre l'Océan Indien, l'Asie du Sud-Est, l'Europe et les principales escales mondiales."
+        }
+      ]
+    },
+    "logistique": {
+      "heroTag": "Logistique portuaire",
+      "heroTitle": "Transport & logistique portuaire à Madagascar",
+      "heroSubtitle": "Gestion intégrée de la chaîne logistique entre les ports malgaches et l'intérieur du pays. Fret, manutention, douane et stockage.",
+      "introTitle": "La logistique portuaire, maillon critique de votre chaîne d'approvisionnement",
+      "introText": "La performance logistique à Madagascar exige une connaissance fine du terrain, des relations solides avec les administrations douanières et une coordination sans failles entre les différents acteurs portuaires. MMA vous offre une solution clé en main, du débarquement de la marchandise à sa livraison finale.",
+      "servicesTitle": "Nos prestations logistiques",
+      "servicesItems": [
+        {
+          "title": "Transport de conteneurs",
+          "description": "Acheminement de conteneurs 20' et 40' (dry, reefer, open top, flat rack) entre les terminaux portuaires et les destinations intérieures. Flotte propre et sous-traitants certifiés."
+        },
+        {
+          "title": "Fret hors-gabarit & projets industriels",
+          "description": "Transport de charges lourdes et hors-normes pour les projets miniers, énergétiques et d'infrastructure. Études d'itinéraire, obtention des autorisations de convoi exceptionnel."
+        },
+        {
+          "title": "Formalités douanières",
+          "description": "Déclarations d'importation et d'exportation, gestion des régimes douaniers (mise à la consommation, transit, entrepôt sous douane), traitement des litiges douaniers."
+        },
+        {
+          "title": "Entreposage portuaire",
+          "description": "Stockage sécurisé en zone portuaire et hors zone : entrepôts couverts, zones de stockage en plein air, entrepôts frigorifiques pour les produits périssables."
+        },
+        {
+          "title": "Groupage & dégroupage",
+          "description": "Constitution et éclatement de groupages maritimes LCL (Less than Container Load). Consolidation de marchandises de plusieurs expéditeurs pour optimiser les coûts de transport."
+        },
+        {
+          "title": "Suivi et reporting",
+          "description": "Tracking en temps réel de vos marchandises, alertes proactives en cas de retard ou d'incident, rapports d'avancement et documentation complète pour chaque mouvement."
+        }
+      ],
+      "faqTitle": "Questions fréquentes",
+      "faqs": [
+        {
+          "question": "Couvrez-vous le transport entre tous les ports et Antananarivo ?",
+          "answer": "Oui. Toamasina–Antananarivo est notre axe principal (RN2, 370 km). Nous gérons également les liaisons depuis les autres ports vers les grandes villes. Comptez 1 à 2 jours de transport selon le port de départ et les conditions routières."
+        },
+        {
+          "question": "Pouvez-vous gérer le transport de produits dangereux (DG) ?",
+          "answer": "Oui, sous conditions. Nous gérons les marchandises dangereuses conformément à la réglementation IMDG et aux exigences douanières malgaches. Une pré-déclaration est obligatoire. Contactez-nous pour évaluer la faisabilité selon la classe de danger."
+        },
+        {
+          "question": "Quelles sont vos capacités de stockage réfrigéré ?",
+          "answer": "Nous disposons d'un accès à des entrepôts frigorifiques en zone portuaire de Toamasina, avec des températures contrôlées de +2°C à +8°C et de -18°C à -25°C pour les produits surgelés. Capacités disponibles sur réservation."
+        },
+        {
+          "question": "Proposez-vous des services de dédouanement accéléré ?",
+          "answer": "Oui. Pour les marchandises urgentes ou sous escale navire (réparation, pièces de rechange), nous disposons d'une procédure de dédouanement accéléré en liaison avec la Direction Régionale des Douanes de Toamasina. Délai moyen : 4 à 8 heures."
+        },
+        {
+          "question": "Intervenez-vous sur les projets miniers d'Ehoala ?",
+          "answer": "Oui. MMA est présente à Ehoala et gère régulièrement la logistique de marchandises liées aux opérations minières (QMM, KRAOMA). Nous connaissons les procédures spécifiques de ce port à accès contrôlé et coordonnons avec les équipes sur site."
+        }
+      ]
+    },
+    "ports": {
+      "heroTag": "Présence portuaire",
+      "heroTitle": "MMA dans les six ports de Madagascar",
+      "heroSubtitle": "Une couverture complète du territoire malgache, du nord au sud, avec des équipes locales dans chaque port.",
+      "introTitle": "Une présence locale, un service uniforme",
+      "introText": "Quelle que soit l'escale — Toamasina, Ehoala, Mahajanga, Antsiranana, Nosy Be ou Toliara — vous bénéficiez du même niveau de service MMA. Nos équipes locales connaissent les spécificités de chaque port, ses autorités et ses prestataires. C'est cette profondeur locale qui fait la différence pour vos opérations.",
+      "portsDetailTitle": "Profils des ports",
+      "toamasinaTitle": "Toamasina — Le hub de Madagascar",
+      "toamasinaText": "Toamasina (Tamatave) est le premier port de Madagascar, traitant plus de 70% du commerce extérieur du pays. Géré par le SPAT (Société du Port à Gestion Autonome de Toamasina), le port dispose de plusieurs terminaux : un terminal à conteneurs (MICTSL), un terminal polyvalent et des postes pétroliers. Le tirant d'eau maximal est de 12,5 mètres à pleine charge. MMA y dispose de son siège opérationnel avec une équipe dédiée disponible 24h/24.",
+      "eholaTitle": "Ehoala — La porte du minerai malgache",
+      "eholaText": "Le port d'Ehoala, situé à Fort-Dauphin dans l'extrême sud-est de Madagascar, est un port en eau profonde construit pour les opérations d'exportation minière de QMM (Rio Tinto). Il accueille des vraquiers de grande capacité pour le transport d'ilménite. L'accès au port est réglementé et nécessite une coordination étroite avec les opérateurs miniers. MMA est le point de contact privilégié pour toutes les escales à Ehoala.",
+      "mahajangaTitle": "Mahajanga — Carrefour de l'Océan Indien occidental",
+      "mahajangaText": "Deuxième port commercial de Madagascar, Mahajanga est situé sur la côte nord-ouest et entretient des liaisons régulières avec les Comores, Mayotte et le canal du Mozambique. Le port traite principalement des marchandises générales, des produits agricoles et du bétail. C'est également un point d'entrée pour les importations en provenance d'Asie du Sud-Est via le canal de Mozambique.",
+      "antsirananaTitle": "Antsiranana — La grande rade du Nord",
+      "antsirananaText": "Antsiranana (Diego-Suarez), à la pointe nord de Madagascar, possède l'une des plus grandes rades naturelles au monde. Sa position stratégique sur la route maritime entre l'Asie et l'Europe en fait un point de soutage et d'escale technique privilégié. MMA gère les services d'avitaillement, de réparation et de changement d'équipage pour les navires en transit sur cet axe.",
+      "nosybeTitle": "Nosy Be — L'escale des navires de prestige",
+      "nosybeText": "Nosy Be est la principale destination touristique maritime de Madagascar. Le port de Hell-Ville accueille des yachts de plaisance, des bateaux de croisière et des navires d'expédition scientifique. MMA propose des services d'entrée et sortie, d'approvisionnement et de coordination avec les autorités locales pour ces navires à statut particulier.",
+      "toliaraTitle": "Toliara — La porte du Grand Sud",
+      "toliaraText": "Toliara (Tuléar), sur la côte sud-ouest de Madagascar, est le port de la région Atsimo-Andrefana. Le port traite principalement des marchandises générales, du sel et des produits de la pêche. Son infrastructure est en cours de modernisation. MMA y assure une présence régulière et peut intervenir pour tout type d'escale commerciale."
+    },
+    "about": {
+      "heroTag": "À propos de MMA",
+      "heroTitle": "Madagascar Maritime Agency",
+      "heroSubtitle": "Quinze années d'engagement au service des armateurs et des équipages dans les ports de Madagascar.",
+      "storyTitle": "Notre histoire",
+      "storyText": "Madagascar Maritime Agency a été fondée à Toamasina avec une vision claire : offrir aux armateurs internationaux un interlocuteur local fiable, réactif et parfaitement au fait des réalités portuaires malgaches. Depuis nos débuts, nous avons grandi en suivant le développement du commerce maritime à Madagascar, en construisant des relations durables avec les autorités portuaires, les administrations et les prestataires locaux.",
+      "missionTitle": "Notre mission",
+      "missionText": "Faire de chaque escale à Madagascar une opération fluide, conforme et rentable pour l'armateur. Nous sommes le prolongement opérationnel de votre armement sur place — vous avez un problème à Toamasina à 3h du matin, nous répondons.",
+      "valuesTitle": "Nos valeurs",
+      "values": [
+        {
+          "title": "Intégrité",
+          "description": "Comptes d'escale transparents, tarifs clairs, pas de frais cachés. Vous savez exactement ce que vous payez et pourquoi."
+        },
+        {
+          "title": "Réactivité",
+          "description": "Disponibilité 24h/24. Les escales ne s'annoncent pas toujours à l'avance — nous sommes prêts à tout moment."
+        },
+        {
+          "title": "Expertise locale",
+          "description": "Quinze ans de relations avec les institutions portuaires, les douanes et les autorités maritimes malgaches."
+        },
+        {
+          "title": "Conformité",
+          "description": "Respect scrupuleux des réglementations nationales et des conventions internationales. Zéro compromis."
+        }
+      ],
+      "certTitle": "Agréments et certifications",
+      "certText": "MMA est agence agréée par l'Autorité Portuaire Maritime et Fluviale (APMF), l'organisme malgache de régulation du secteur maritime. Nous sommes également conformes aux exigences de la Convention du Travail Maritime 2006 (MLC 2006) pour notre activité de manning.",
+      "teamTitle": "Notre équipe",
+      "teamText": "Notre équipe est composée de professionnels du maritime : capitaines, officiers de marine marchande, agents portuaires et logisticiens. Nous parlons votre langue — maritimement et littéralement (français, anglais, malgache)."
+    }
+  }
+}

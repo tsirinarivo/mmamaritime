@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "description": "Madagascar Maritime Agency — APMF-licensed maritime agency offering ship agency, manning and port logistics services across all Malagasy ports.",
+    "homeTitle": "Madagascar Maritime Agency — Ship Agency, Manning & Port Logistics",
+    "homeDescription": "MMA is your trusted maritime partner in Madagascar. Ship agency, seafarer recruitment (MLC 2006 compliant), transport and port logistics — available 24/7 in all major Malagasy ports."
+  },
+  "nav": {
+    "services": "Services",
+    "consignation": "Ship Agency",
+    "manning": "Manning & Crewing",
+    "logistique": "Port Logistics",
+    "ports": "Our Ports",
+    "about": "About",
+    "contact": "Contact",
+    "requestCall": "Request a Port Call",
+    "language": "Language"
+  },
+  "hero": {
+    "tagline": "Licensed Maritime Agency — Madagascar",
+    "title": "Your trusted partner in Madagascar's ports",
+    "subtitle": "From Toamasina to Ehoala, MMA handles your ship agency, crew management and cargo logistics. Available 24/7, 365 days a year.",
+    "ctaPrimary": "Request a Port Call",
+    "ctaSecondary": "Our Services",
+    "availabilityBadge": "Available 24/7 — 365 days",
+    "scrollHint": "Scroll"
+  },
+  "trust": {
+    "title": "The maritime reference in Madagascar",
+    "portsCount": "6",
+    "portsLabel": "Ports covered",
+    "disponibility": "24/7",
+    "disponibilityLabel": "Round-the-clock availability",
+    "experience": "15+ yrs",
+    "experienceLabel": "Maritime experience",
+    "conformity": "APMF",
+    "conformityLabel": "Licensed agency"
+  },
+  "services": {
+    "title": "Our maritime services",
+    "subtitle": "An integrated service portfolio addressing every need of the shipowner, freight forwarder and port operator.",
+    "consignation": {
+      "title": "Ship Agency",
+      "description": "Full port call management: customs and port formalities, liaison with authorities, on-board operations management and real-time monitoring until departure.",
+      "features": [
+        "Port entry and clearance formalities",
+        "Liaison with Harbour Master and port authorities",
+        "Loading and discharging operations coordination",
+        "Bunker, water and provisions assistance",
+        "Crew change management",
+        "Spare parts and ship's mail reception",
+        "Medical assistance and repatriation",
+        "Detailed disbursement account"
+      ],
+      "cta": "Learn more"
+    },
+    "manning": {
+      "title": "Manning & Crewing",
+      "description": "Recruitment, selection and placement of qualified Malagasy seafarers in compliance with MLC 2006. APMF-licensed agency managing the full contractual lifecycle.",
+      "features": [
+        "Recruitment of certificated and uncertificated seafarers",
+        "STCW certificate and ship's document verification",
+        "Maritime Employment Contract management (MLC 2006)",
+        "Medical examination coordination",
+        "Crew flights and transit organisation",
+        "Payroll management and bank transfers",
+        "Emergency repatriation",
+        "Database of immediately available qualified seafarers"
+      ],
+      "cta": "Learn more"
+    },
+    "logistique": {
+      "title": "Port Logistics",
+      "description": "Land transport, handling and freight between Malagasy ports and the hinterland. We coordinate the full logistics chain for seamless operations.",
+      "features": [
+        "Container and out-of-gauge cargo transport",
+        "LCL groupage and de-groupage",
+        "Customs declarations and import/export formalities",
+        "Secure storage in port zone",
+        "Real-time cargo tracking",
+        "Coordination with terminals and port operators",
+        "Refrigerated transport for perishable goods",
+        "Industrial and mining project logistics"
+      ],
+      "cta": "Learn more"
+    }
+  },
+  "whyMma": {
+    "title": "Why choose MMA?",
+    "subtitle": "Fifteen years of active presence in Malagasy ports have shaped our expertise. We are not an intermediary — we are an operational extension of your shipping company on the ground.",
+    "items": [
+      {
+        "title": "24/7 Responsiveness",
+        "description": "A contact reachable at any hour, every day of the year. Port calls do not wait for office hours."
+      },
+      {
+        "title": "Strong local presence",
+        "description": "Teams based in all six ports covered. We know the authorities, terminals and local service providers."
+      },
+      {
+        "title": "Full compliance",
+        "description": "APMF licence, strict adherence to MLC 2006 and international conventions. Zero tolerance for non-compliance."
+      },
+      {
+        "title": "International network",
+        "description": "Partnerships with maritime agencies across the Indian Ocean and beyond for seamless coordination on regional routes."
+      }
+    ]
+  },
+  "ports": {
+    "title": "Ports covered in Madagascar",
+    "subtitle": "MMA operates in all six major commercial ports of Madagascar, from north to south.",
+    "list": [
+      {
+        "name": "Toamasina",
+        "alias": "Tamatave",
+        "region": "East Coast",
+        "description": "Madagascar's primary port and regional transit hub. MMA's operational headquarters is located here.",
+        "principal": true,
+        "traffic": "70% of national traffic"
+      },
+      {
+        "name": "Ehoala",
+        "alias": "Fort-Dauphin",
+        "region": "South-East Coast",
+        "description": "Deep-water port developed for mineral export (ilmenite). Modern infrastructure dedicated to bulk carriers.",
+        "principal": false,
+        "traffic": "Mining port QMM-Rio Tinto"
+      },
+      {
+        "name": "Mahajanga",
+        "alias": "Majunga",
+        "region": "North-West Coast",
+        "description": "Madagascar's second commercial port, a gateway to East Africa and the Comoros.",
+        "principal": false,
+        "traffic": "East Africa regional traffic"
+      },
+      {
+        "name": "Antsiranana",
+        "alias": "Diego-Suarez",
+        "region": "Far North",
+        "description": "Exceptional natural harbour at the northern tip of Madagascar. Technical calls and bunkering for transit vessels.",
+        "principal": false,
+        "traffic": "Transit vessels & technical calls"
+      },
+      {
+        "name": "Nosy Be",
+        "alias": "Hell-Ville",
+        "region": "North-West",
+        "description": "Tourism and fishing port. Management of yachts, cruise ships and scientific research vessels.",
+        "principal": false,
+        "traffic": "Yachts, cruises & deep-sea fishing"
+      },
+      {
+        "name": "Toliara",
+        "alias": "Tulear",
+        "region": "South-West Coast",
+        "description": "Southern Madagascar port handling general cargo, salt and fishing activities.",
+        "principal": false,
+        "traffic": "General cargo & salt"
+      }
+    ]
+  },
+  "process": {
+    "title": "The port call process",
+    "subtitle": "From first notification to departure, our team handles every step with rigour and transparency.",
+    "steps": [
+      {
+        "number": "01",
+        "label": "D-72h",
+        "title": "Pre-notification",
+        "description": "Receipt of the port call notice, coordination with the Harbour Master, berth reservation and transmission of regulatory documents to port authorities."
+      },
+      {
+        "number": "02",
+        "label": "D-24h",
+        "title": "Port call formalities",
+        "description": "Filing of customs, health and immigration declarations. Confirmation of required services: pilotage, towage, mooring and bunkering."
+      },
+      {
+        "number": "03",
+        "label": "Arrival",
+        "title": "Port welcome",
+        "description": "Agent present at berth upon arrival. Reception of the Master, initial inspection, delivery of coordinated services and handover of ship's documents."
+      },
+      {
+        "number": "04",
+        "label": "Port stay",
+        "title": "On-board operations",
+        "description": "Cargo operations supervision, technical intervention management, crew change, spare parts and provisions reception, service provider monitoring."
+      },
+      {
+        "number": "05",
+        "label": "Departure",
+        "title": "Clearance & follow-up",
+        "description": "Closing of departure formalities, preparation of detailed disbursement account and transmission of the full port call report to the shipowner within 24 hours."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to plan your next port call?",
+    "subtitle": "Contact our team available 24/7. We respond within the hour.",
+    "ctaPrimary": "Request a port call",
+    "ctaSecondary": "Call us",
+    "phone": "+261 37 17 777 77",
+    "email": "contact@mmamaritime.com"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Our team is available 24/7. Guaranteed response within the hour for any port call request.",
+    "address": "Port Zone, Toamasina 501, Madagascar",
+    "phone": "+261 37 17 777 77",
+    "email": "contact@mmamaritime.com",
+    "hours": "Available 24/7 — 365 days/year",
+    "formTitle": "Send a request",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Captain John Smith",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "john.smith@shipping.com",
+    "companyLabel": "Shipping company",
+    "companyPlaceholder": "MSC Mediterranean Shipping",
+    "vesselLabel": "Vessel name",
+    "vesselPlaceholder": "MV Pacific Star",
+    "portLabel": "Port of call",
+    "portPlaceholder": "Select a port",
+    "typeLabel": "Service type",
+    "typePlaceholder": "Select a service",
+    "messageLabel": "Message / Port call details",
+    "messagePlaceholder": "Estimated arrival date, cargo type, required services...",
+    "submit": "Send request",
+    "submitting": "Sending...",
+    "success": "Your request has been received. Our team will contact you within the hour.",
+    "error": "An error occurred. Please try again or call us directly.",
+    "serviceTypes": [
+      "Ship Agency",
+      "Manning / Crew Recruitment",
+      "Port Logistics",
+      "Bunkering",
+      "Crew Change",
+      "Other service"
+    ],
+    "portOptions": [
+      "Toamasina (Tamatave)",
+      "Ehoala (Fort-Dauphin)",
+      "Mahajanga (Majunga)",
+      "Antsiranana (Diego-Suarez)",
+      "Nosy Be",
+      "Toliara (Tulear)"
+    ]
+  },
+  "footer": {
+    "description": "APMF-licensed maritime agency providing ship agency, manning and port logistics across all major Malagasy ports for over 15 years.",
+    "servicesTitle": "Services",
+    "portsTitle": "Ports",
+    "infoTitle": "Information",
+    "contactTitle": "Contact",
+    "about": "About MMA",
+    "blog": "Maritime news",
+    "careers": "Careers",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "legalNotice": "Legal Notice",
+    "copyright": "© {year} Madagascar Maritime Agency. All rights reserved.",
+    "tagline": "Available 24/7 — 365 days/year",
+    "address": "Port Zone, Toamasina 501",
+    "country": "Madagascar"
+  },
+  "pages": {
+    "consignation": {
+      "heroTag": "Ship Agency",
+      "heroTitle": "Ship Agency in Madagascar",
+      "heroSubtitle": "Rigorous port call management, from pre-arrival to departure, across all Malagasy commercial ports.",
+      "introTitle": "The ship agent: your representative at the berth",
+      "introText": "As ship's agent, MMA acts on behalf of the shipowner and Master to coordinate all port operations. Our role is to anticipate, organise and resolve — so your vessel spends the minimum time at berth and departs in the best possible condition.",
+      "servicesTitle": "Our agency services",
+      "servicesItems": [
+        {
+          "title": "Port entry and clearance formalities",
+          "description": "Full management of declarations with customs, immigration, maritime health services and the Harbour Master. Electronic transmission of regulatory documents before arrival."
+        },
+        {
+          "title": "Port coordination",
+          "description": "Berth reservation, pilotage, towage and mooring coordination. Permanent liaison with the Port Authority (SPAT) and APMF."
+        },
+        {
+          "title": "Cargo operations",
+          "description": "Loading and discharging supervision, coordination with stevedores, manifest and bill of lading verification, operational timeline monitoring."
+        },
+        {
+          "title": "Bunkering & provisions",
+          "description": "Coordination of fuel (HFO, VLSFO, MGO), freshwater, provisions and safety equipment. Management of customs formalities for petroleum products."
+        },
+        {
+          "title": "Crew change",
+          "description": "Full crew relief organisation: flights, airport transit, accommodation, visas, immigration formalities and coordination with maritime authorities."
+        },
+        {
+          "title": "Medical assistance",
+          "description": "Medical evacuation, referral to partner hospitals, administrative assistance for medical care and insurance formality management."
+        },
+        {
+          "title": "Spare parts and ship's mail",
+          "description": "Handling of urgent spare part shipments: expedited customs clearance, transit from the airport, on-board delivery within the shortest possible time."
+        },
+        {
+          "title": "Transparent disbursement account",
+          "description": "Detailed disbursement account with supporting documents for every expense. Pre-financing of disbursements and recovery within agreed deadlines."
+        }
+      ],
+      "faqTitle": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "How quickly can MMA respond to an urgent port call request?",
+          "answer": "Our team is available 24/7. For an urgent port call, we acknowledge receipt within the hour and immediately activate our contacts at the Harbour Master's office and Port Authority. A minimum ETA of 48 hours is recommended, but we can handle emergency situations with shorter notice."
+        },
+        {
+          "question": "What is the procedure for a first call at Toamasina?",
+          "answer": "For a first call, we ask you to provide the vessel name, IMO number, owner/operator, ETA, cargo nature and required services. We then prepare a provisional port call estimate and guide you through the administrative requirements specific to the port."
+        },
+        {
+          "question": "How does invoicing and settlement of the disbursement account work?",
+          "answer": "We prepare a provisional disbursement account before the vessel's arrival. A deposit may be requested for first-call vessels. The final account, with all original supporting documents, is sent within 7 days of departure. Settlement is by international bank transfer."
+        },
+        {
+          "question": "Can MMA handle large vessels at Toamasina?",
+          "answer": "Yes. Toamasina port accommodates vessels up to 300 metres in length and 12.5 metres draught (in optimal conditions). We regularly handle large container ships, bulk carriers and tankers. We can provide precise information on the port's nautical constraints on request."
+        },
+        {
+          "question": "Do you provide services outside normal business hours?",
+          "answer": "Absolutely. Maritime operations do not stop at night or on weekends. Our duty phone is operational 24/7, 365 days a year. A duty agent is always reachable for emergencies and night-time arrivals."
+        }
+      ]
+    },
+    "manning": {
+      "heroTag": "Manning & Crewing",
+      "heroTitle": "Malagasy seafarer recruitment and placement",
+      "heroSubtitle": "APMF-licensed manning agency, fully compliant with the MLC 2006. Access to a pool of STCW-certified seafarers ready to embark.",
+      "introTitle": "Malagasy seafarers: a recognised maritime workforce",
+      "introText": "Madagascar has a strong maritime tradition and a qualified seafaring workforce. MMA gives you access to this pool while guaranteeing full compliance with Malagasy legal requirements and international conventions, notably MLC 2006 and STCW certifications.",
+      "servicesTitle": "Our manning services",
+      "servicesItems": [
+        {
+          "title": "Recruitment & selection",
+          "description": "Sourcing, CV pre-screening, interviews and technical skills assessment for all grades: deck officers, engineer officers, ratings."
+        },
+        {
+          "title": "Certification verification",
+          "description": "Systematic verification of STCW certificates, seaman's books, ENG1 medical certificates and all regulatory documents. Direct liaison with APMF for authenticity checks."
+        },
+        {
+          "title": "MLC 2006 contract management",
+          "description": "Drafting and management of Seafarer Employment Agreements (SEA) compliant with MLC 2006: minimum wage, working conditions, repatriation, insurance."
+        },
+        {
+          "title": "Embarkation coordination",
+          "description": "Flight and transport organisation, visa and immigration formalities management, airport pickup and delivery on board at any port worldwide."
+        },
+        {
+          "title": "Payroll management",
+          "description": "Pay administration, bank transfers, family allotment management and social security contributions in compliance with Malagasy legislation."
+        },
+        {
+          "title": "Ongoing support",
+          "description": "Permanent point of contact between shipowner, seafarer and family. Emergency management: illness, repatriation, work accidents and contract disputes."
+        }
+      ],
+      "mlcTitle": "MLC 2006 Compliance",
+      "mlcText": "The Maritime Labour Convention 2006 (MLC 2006) is the cornerstone of our manning activity. We guarantee that every contract, every condition of employment and every repatriation fully complies with the provisions of this international convention. Our APMF-licensed status certifies our compliance with the Malagasy authorities.",
+      "faqTitle": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "What seafarer grades can you recruit?",
+          "answer": "We recruit all grades: Master, Chief Engineer, Deck and Engine Officers, Bosun, Stewards, Cooks, Able Seamen, Engine Room Ratings, Electricians and hotel staff for passenger vessels. Our database holds several hundred active profiles."
+        },
+        {
+          "question": "What are the usual recruitment timelines?",
+          "answer": "For standard profiles (ratings, junior crew), we can mobilise candidates within 48 to 72 hours. For certificated officers, allow 1 to 2 weeks depending on the speciality. We maintain a standby list of immediately available seafarers for emergencies."
+        },
+        {
+          "question": "Do Malagasy seafarers hold up-to-date STCW certifications?",
+          "answer": "Yes. We only place seafarers whose STCW certifications (Manila Amendments), seamen's books and medical certificates are currently valid. We carry out systematic checks and can provide originals or certified copies of all documents."
+        },
+        {
+          "question": "How are emergency repatriations managed?",
+          "answer": "In case of urgent repatriation (accident, serious illness, family bereavement), we activate our network immediately. We handle consular formalities, flight ticket purchase, coordination with the port of disembarkation and local authorities. We have established procedures to act within 24 hours."
+        },
+        {
+          "question": "What is your geographical coverage for seafarer disembarkations?",
+          "answer": "We manage disembarkations of Malagasy seafarers in all worldwide ports where our maritime agency partners are present. Our network covers the Indian Ocean, South-East Asia, Europe and all major ports worldwide."
+        }
+      ]
+    },
+    "logistique": {
+      "heroTag": "Port Logistics",
+      "heroTitle": "Port transport & logistics in Madagascar",
+      "heroSubtitle": "Integrated supply chain management between Malagasy ports and the hinterland. Freight, handling, customs and storage.",
+      "introTitle": "Port logistics: the critical link in your supply chain",
+      "introText": "Logistics performance in Madagascar requires intimate local knowledge, solid relationships with customs administrations and seamless coordination between the various port stakeholders. MMA offers you a turnkey solution, from cargo discharge to final delivery.",
+      "servicesTitle": "Our logistics services",
+      "servicesItems": [
+        {
+          "title": "Container transport",
+          "description": "Movement of 20' and 40' containers (dry, reefer, open top, flat rack) between port terminals and inland destinations. Own fleet and certified subcontractors."
+        },
+        {
+          "title": "Out-of-gauge & project cargo",
+          "description": "Heavy and oversized cargo transport for mining, energy and infrastructure projects. Route studies, exceptional convoy permits."
+        },
+        {
+          "title": "Customs formalities",
+          "description": "Import and export declarations, customs regime management (home use, transit, bonded warehouse), customs dispute handling."
+        },
+        {
+          "title": "Port storage",
+          "description": "Secure storage in port zone and off-dock: covered warehouses, open storage areas, refrigerated warehouses for perishable goods."
+        },
+        {
+          "title": "Groupage & de-groupage",
+          "description": "LCL (Less than Container Load) consolidation and deconsolidation. Cargo grouping from multiple shippers to optimise transport costs."
+        },
+        {
+          "title": "Tracking & reporting",
+          "description": "Real-time cargo tracking, proactive alerts in case of delay or incident, progress reports and complete documentation for each movement."
+        }
+      ],
+      "faqTitle": "Frequently asked questions",
+      "faqs": [
+        {
+          "question": "Do you cover transport between all ports and Antananarivo?",
+          "answer": "Yes. Toamasina–Antananarivo is our main axis (RN2, 370 km). We also manage connections from other ports to major cities. Allow 1 to 2 days of transport depending on the departure port and road conditions."
+        },
+        {
+          "question": "Can you handle dangerous goods (DG) transport?",
+          "answer": "Yes, under conditions. We handle dangerous goods in accordance with IMDG regulations and Malagasy customs requirements. Pre-declaration is mandatory. Contact us to assess feasibility according to the hazard class."
+        },
+        {
+          "question": "What are your refrigerated storage capacities?",
+          "answer": "We have access to cold storage facilities in the Toamasina port zone, with controlled temperatures from +2°C to +8°C and -18°C to -25°C for frozen products. Capacities available on reservation."
+        },
+        {
+          "question": "Do you offer expedited customs clearance services?",
+          "answer": "Yes. For urgent cargo or under vessel call (repairs, spare parts), we have an expedited customs clearance procedure in liaison with the Regional Customs Directorate of Toamasina. Average time: 4 to 8 hours."
+        },
+        {
+          "question": "Do you operate at the Ehoala mining port?",
+          "answer": "Yes. MMA is present at Ehoala and regularly manages cargo logistics related to mining operations (QMM, KRAOMA). We know the specific procedures of this access-controlled port and coordinate with on-site teams."
+        }
+      ]
+    },
+    "ports": {
+      "heroTag": "Port presence",
+      "heroTitle": "MMA in Madagascar's six ports",
+      "heroSubtitle": "Complete coverage of Malagasy territory from north to south, with local teams in every port.",
+      "introTitle": "Local presence, consistent service",
+      "introText": "Whether the call is at Toamasina, Ehoala, Mahajanga, Antsiranana, Nosy Be or Toliara, you receive the same level of MMA service. Our local teams know the specifics of each port, its authorities and its service providers. This local depth is what makes the difference for your operations.",
+      "portsDetailTitle": "Port profiles",
+      "toamasinaTitle": "Toamasina — Madagascar's hub",
+      "toamasinaText": "Toamasina (Tamatave) is Madagascar's primary port, handling over 70% of the country's foreign trade. Managed by SPAT (Société du Port à Gestion Autonome de Toamasina), the port has several terminals: a container terminal (MICTSL), a multipurpose terminal and petroleum berths. Maximum draught is 12.5 metres at full load. MMA's operational headquarters is here, with a dedicated team available 24/7.",
+      "eholaTitle": "Ehoala — The gateway for Malagasy minerals",
+      "eholaText": "Ehoala port, located at Fort-Dauphin in the far south-east of Madagascar, is a deep-water port built for QMM (Rio Tinto) mineral export operations. It welcomes large bulk carriers for ilmenite transport. Port access is regulated and requires close coordination with mining operators. MMA is the preferred point of contact for all calls at Ehoala.",
+      "mahajangaTitle": "Mahajanga — Crossroads of the western Indian Ocean",
+      "mahajangaText": "Madagascar's second commercial port, Mahajanga is located on the north-west coast and maintains regular services with the Comoros, Mayotte and the Mozambique Channel. The port mainly handles general cargo, agricultural products and livestock. It is also an entry point for imports from South-East Asia via the Mozambique Channel.",
+      "antsirananaTitle": "Antsiranana — The great northern anchorage",
+      "antsirananaText": "Antsiranana (Diego-Suarez), at the northern tip of Madagascar, has one of the world's largest natural harbours. Its strategic position on the sea route between Asia and Europe makes it a preferred bunkering and technical call point. MMA manages bunkering, repair and crew change services for transit vessels on this route.",
+      "nosybeTitle": "Nosy Be — The prestige vessel port of call",
+      "nosybeText": "Nosy Be is Madagascar's main maritime tourism destination. Hell-Ville port welcomes pleasure yachts, cruise ships and scientific expedition vessels. MMA provides entry/clearance, provisioning and authority coordination services for these special-status vessels.",
+      "toliaraTitle": "Toliara — The gateway to the Deep South",
+      "toliaraText": "Toliara (Tulear) on the south-west coast of Madagascar is the port of the Atsimo-Andrefana region. The port primarily handles general cargo, salt and fishing products. Its infrastructure is undergoing modernisation. MMA maintains a regular presence and can handle any type of commercial port call."
+    },
+    "about": {
+      "heroTag": "About MMA",
+      "heroTitle": "Madagascar Maritime Agency",
+      "heroSubtitle": "Fifteen years of commitment to shipowners and crews in Madagascar's ports.",
+      "storyTitle": "Our story",
+      "storyText": "Madagascar Maritime Agency was founded in Toamasina with a clear vision: to offer international shipowners a reliable, responsive local partner with intimate knowledge of Malagasy port realities. Since our founding, we have grown alongside the development of maritime trade in Madagascar, building lasting relationships with port authorities, administrations and local service providers.",
+      "missionTitle": "Our mission",
+      "missionText": "To make every port call in Madagascar a smooth, compliant and cost-effective operation for the shipowner. We are the operational extension of your shipping company on the ground — you have a problem in Toamasina at 3 a.m., we answer.",
+      "valuesTitle": "Our values",
+      "values": [
+        {
+          "title": "Integrity",
+          "description": "Transparent disbursement accounts, clear rates, no hidden fees. You know exactly what you pay and why."
+        },
+        {
+          "title": "Responsiveness",
+          "description": "24/7 availability. Port calls do not always announce themselves in advance — we are ready at any moment."
+        },
+        {
+          "title": "Local expertise",
+          "description": "Fifteen years of relationships with port institutions, customs and Malagasy maritime authorities."
+        },
+        {
+          "title": "Compliance",
+          "description": "Strict adherence to national regulations and international conventions. Zero compromise."
+        }
+      ],
+      "certTitle": "Licences and certifications",
+      "certText": "MMA is licensed by the Autorité Portuaire Maritime et Fluviale (APMF), the Malagasy regulatory body for the maritime sector. We are also compliant with the requirements of the Maritime Labour Convention 2006 (MLC 2006) for our manning activities.",
+      "teamTitle": "Our team",
+      "teamText": "Our team is composed of maritime professionals: Master Mariners, Merchant Navy Officers, port agents and logistics specialists. We speak your language — both maritimely and literally (French, English, Malagasy)."
+    }
+  }
+}
