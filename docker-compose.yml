@@ -9,8 +9,8 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3000
-    expose:
-      - "3000"
+    ports:
+      - "127.0.0.1:3006:3000"
     networks:
       - web
 
