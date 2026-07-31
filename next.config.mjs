@@ -11,6 +11,8 @@ const nextConfig = {
   basePath: '/dev',
   images: {
     formats: ['image/avif', 'image/webp'],
+    dangerouslyAllowSVG: true,
+    contentSecurityPolicy: "default-src 'none'; script-src 'none'; sandbox;",
   },
   webpack(config) {
     config.resolve.alias = {
