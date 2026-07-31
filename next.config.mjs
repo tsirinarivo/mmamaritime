@@ -9,6 +9,7 @@ const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')
 const nextConfig = {
   output: 'standalone',
   basePath: '/dev',
+  trailingSlash: true,
   images: {
     formats: ['image/avif', 'image/webp'],
   },
