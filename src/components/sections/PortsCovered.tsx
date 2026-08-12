@@ -22,7 +22,7 @@ export default async function PortsCovered() {
           <div>
             <span className="section-tag mb-4">
               <span className="gold-line" aria-hidden="true" />
-              Madagascar
+              {t('locationTag')}
             </span>
             <h2 className="font-sans font-bold text-white text-3xl sm:text-4xl lg:text-5xl text-balance">
               {t('title')}
@@ -70,7 +70,7 @@ export default async function PortsCovered() {
                 <text x="22" y="298" fill="#1CA5A5" fontSize="9" fontFamily="sans-serif">Toliara</text>
               </svg>
               <p className="text-center text-white/30 text-xs mt-4 font-sans">
-                Madagascar — 6 ports couverts
+                {t('mapCaption')}
               </p>
             </div>
           </ScrollReveal>

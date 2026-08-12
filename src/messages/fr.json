@@ -32,8 +32,8 @@
     "disponibilityLabel": "Disponibilité permanente",
     "experience": "+15 ans",
     "experienceLabel": "D'expérience maritime",
-    "conformity": "APMF",
-    "conformityLabel": "Agence agréée"
+    "conformity": "MLC 2006",
+    "conformityLabel": "Conformité internationale"
   },
   "services": {
     "title": "Nos prestations maritimes",
@@ -55,7 +55,7 @@
     },
     "manning": {
       "title": "Manning & Crewing",
-      "description": "Recrutement, sélection et placement de marins malgaches qualifiés selon les exigences de la Convention MLC 2006. Agence agréée APMF, nous gérons l'ensemble du cycle de vie contractuel.",
+      "description": "Recrutement, sélection et placement de marins malgaches qualifiés selon les exigences de la Convention MLC 2006. Agence spécialisée, nous gérons l'ensemble du cycle de vie contractuel.",
       "features": [
         "Recrutement de marins brevetés et non brevetés",
         "Vérification des certificats STCW et documents de bord",
@@ -87,6 +87,7 @@
   "whyMma": {
     "title": "Pourquoi choisir MMA ?",
     "subtitle": "Quinze années de présence active dans les ports malgaches ont forgé notre expertise. Nous ne sommes pas un intermédiaire : nous sommes une extension opérationnelle de votre armement sur place.",
+    "subtitleShort": "Quinze années de présence dans les ports malgaches…",
     "items": [
       {
         "title": "Réactivité 24h/24",
@@ -98,7 +99,7 @@
       },
       {
         "title": "Conformité totale",
-        "description": "Agrément APMF, respect scrupuleux de la MLC 2006 et des conventions internationales. Zéro tolérance pour la non-conformité."
+        "description": "Certifications maritimes internationales, respect scrupuleux de la MLC 2006 et des conventions internationales. Zéro tolérance pour la non-conformité."
       },
       {
         "title": "Réseau international",
@@ -109,6 +110,8 @@
   "ports": {
     "title": "Ports couverts à Madagascar",
     "subtitle": "MMA est opérationnelle dans les six principaux ports commerciaux de Madagascar, du nord au sud.",
+    "locationTag": "Madagascar",
+    "mapCaption": "Madagascar — 6 ports couverts",
     "list": [
       {
         "name": "Toamasina",
@@ -245,10 +248,13 @@
       "Antsiranana (Diego-Suarez)",
       "Nosy Be",
       "Toliara (Tuléar)"
-    ]
+    ],
+    "addressTitle": "Adresse",
+    "phoneTitle": "Téléphone",
+    "emailTitle": "Email"
   },
   "footer": {
-    "description": "Agence maritime agréée APMF proposant la consignation de navires, le manning et la logistique portuaire dans tous les grands ports de Madagascar depuis plus de 15 ans.",
+    "description": "Agence maritime proposant la consignation de navires, le manning et la logistique portuaire dans tous les grands ports de Madagascar depuis plus de 15 ans.",
     "servicesTitle": "Services",
     "portsTitle": "Ports",
     "infoTitle": "Informations",
@@ -279,7 +285,7 @@
         },
         {
           "title": "Coordination portuaire",
-          "description": "Réservation du poste à quai, coordination du pilotage, du remorquage et du lamanage. Liaison permanente avec l'Autorité Portuaire (SPAT) et l'APMF."
+          "description": "Réservation du poste à quai, coordination du pilotage, du remorquage et du lamanage. Liaison permanente avec l'Autorité Portuaire (SPAT)."
         },
         {
           "title": "Opérations cargo",
@@ -306,6 +312,12 @@
           "description": "Établissement d'un compte d'escale détaillé avec justificatifs pour chaque dépense. Pré-financement des disbursements et récupération dans les délais convenus."
         }
       ],
+      "breadcrumbHome": "Accueil",
+      "ctaQuoteButton": "Demander un devis d'escale",
+      "servicesTag": "Prestations",
+      "ctaTitle": "Prêt à planifier votre escale ?",
+      "ctaSubtitle": "Notre équipe répond dans l'heure, 24h/24.",
+      "ctaButton": "Nous contacter",
       "faqTitle": "Questions fréquentes des armateurs",
       "faqs": [
         {
@@ -333,7 +345,7 @@
     "manning": {
       "heroTag": "Manning & Crewing",
       "heroTitle": "Recrutement et placement de marins malgaches",
-      "heroSubtitle": "Agence de manning agréée APMF, conforme à la Convention MLC 2006. Accès à un vivier de marins qualifiés STCW prêts à embarquer.",
+      "heroSubtitle": "Agence de manning conforme à la Convention MLC 2006. Accès à un vivier de marins qualifiés STCW prêts à embarquer.",
       "introTitle": "Des marins malgaches, une main-d'œuvre maritime reconnue",
       "introText": "Madagascar dispose d'une tradition maritime forte et d'une main-d'œuvre navigante qualifiée. MMA vous donne accès à ce vivier tout en garantissant la conformité totale avec les exigences légales malgaches et les conventions internationales, notamment la MLC 2006 et les certifications STCW.",
       "servicesTitle": "Nos prestations de manning",
@@ -344,7 +356,7 @@
         },
         {
           "title": "Vérification des certifications",
-          "description": "Contrôle systématique des brevets STCW, livrets maritimes, certificats médicaux ENG1 et tous documents réglementaires. Liaisons directes avec l'APMF pour les vérifications d'authenticité."
+          "description": "Contrôle systématique des brevets STCW, livrets maritimes, certificats médicaux ENG1 et tous documents réglementaires. Vérifications d'authenticité rigoureuses."
         },
         {
           "title": "Gestion contractuelle MLC 2006",
@@ -363,8 +375,14 @@
           "description": "Point de contact permanent entre l'armateur, le marin et sa famille. Gestion des urgences : maladies, rapatriements, accidents du travail et litiges contractuels."
         }
       ],
+      "breadcrumbHome": "Accueil",
+      "ctaRecruitButton": "Recruter des marins",
+      "servicesTag": "Prestations",
+      "ctaTitle": "Besoin de marins qualifiés ?",
+      "ctaSubtitle": "Contactez notre équipe manning pour un devis rapide.",
+      "ctaButton": "Nous contacter",
       "mlcTitle": "Conformité MLC 2006",
-      "mlcText": "La Convention du Travail Maritime 2006 (MLC 2006) est le pilier de notre activité de manning. Nous garantissons que chaque contrat, chaque condition d'emploi et chaque rapatriement respecte intégralement les dispositions de cette convention internationale. Notre statut d'agence agréée APMF atteste de notre conformité auprès des autorités malgaches.",
+      "mlcText": "La Convention du Travail Maritime 2006 (MLC 2006) est le pilier de notre activité de manning. Nous garantissons que chaque contrat, chaque condition d'emploi et chaque rapatriement respecte intégralement les dispositions de cette convention internationale, attestant de notre conformité auprès des autorités malgaches.",
       "faqTitle": "Questions fréquentes",
       "faqs": [
         {
@@ -395,6 +413,13 @@
       "heroSubtitle": "Gestion intégrée de la chaîne logistique entre les ports malgaches et l'intérieur du pays. Fret, manutention, douane et stockage.",
       "introTitle": "La logistique portuaire, maillon critique de votre chaîne d'approvisionnement",
       "introText": "La performance logistique à Madagascar exige une connaissance fine du terrain, des relations solides avec les administrations douanières et une coordination sans failles entre les différents acteurs portuaires. MMA vous offre une solution clé en main, du débarquement de la marchandise à sa livraison finale.",
+      "breadcrumbHome": "Accueil",
+      "ctaQuoteButton": "Demander un devis logistique",
+      "servicesTag": "Prestations",
+      "faqTag": "FAQ",
+      "ctaTitle": "Besoin de solutions logistiques ?",
+      "ctaSubtitle": "Obtenez un devis personnalisé en moins de 24 heures.",
+      "ctaButton": "Nous contacter",
       "servicesTitle": "Nos prestations logistiques",
       "servicesItems": [
         {
@@ -464,7 +489,10 @@
       "nosybeTitle": "Nosy Be — L'escale des navires de prestige",
       "nosybeText": "Nosy Be est la principale destination touristique maritime de Madagascar. Le port de Hell-Ville accueille des yachts de plaisance, des bateaux de croisière et des navires d'expédition scientifique. MMA propose des services d'entrée et sortie, d'approvisionnement et de coordination avec les autorités locales pour ces navires à statut particulier.",
       "toliaraTitle": "Toliara — La porte du Grand Sud",
-      "toliaraText": "Toliara (Tuléar), sur la côte sud-ouest de Madagascar, est le port de la région Atsimo-Andrefana. Le port traite principalement des marchandises générales, du sel et des produits de la pêche. Son infrastructure est en cours de modernisation. MMA y assure une présence régulière et peut intervenir pour tout type d'escale commerciale."
+      "toliaraText": "Toliara (Tuléar), sur la côte sud-ouest de Madagascar, est le port de la région Atsimo-Andrefana. Le port traite principalement des marchandises générales, du sel et des produits de la pêche. Son infrastructure est en cours de modernisation. MMA y assure une présence régulière et peut intervenir pour tout type d'escale commerciale.",
+      "ctaTitle": "Planifier une escale dans l'un de ces ports ?",
+      "ctaSubtitle": "Notre équipe est disponible 24h/24 pour vous accompagner.",
+      "ctaButton": "Demander une escale"
     },
     "about": {
       "heroTag": "À propos de MMA",
@@ -494,9 +522,20 @@
         }
       ],
       "certTitle": "Agréments et certifications",
-      "certText": "MMA est agence agréée par l'Autorité Portuaire Maritime et Fluviale (APMF), l'organisme malgache de régulation du secteur maritime. Nous sommes également conformes aux exigences de la Convention du Travail Maritime 2006 (MLC 2006) pour notre activité de manning.",
+      "certText": "MMA opère en conformité totale avec la réglementation maritime malgache. Nous sommes conformes aux exigences de la Convention du Travail Maritime 2006 (MLC 2006) pour notre activité de manning et aux conventions STCW pour nos équipages.",
       "teamTitle": "Notre équipe",
-      "teamText": "Notre équipe est composée de professionnels du maritime : capitaines, officiers de marine marchande, agents portuaires et logisticiens. Nous parlons votre langue — maritimement et littéralement (français, anglais, malgache)."
+      "teamText": "Notre équipe est composée de professionnels du maritime : capitaines, officiers de marine marchande, agents portuaires et logisticiens. Nous parlons votre langue — maritimement et littéralement (français, anglais, malgache).",
+      "historyTag": "Histoire",
+      "statYears": "ans d'expérience",
+      "statPorts": "ports couverts",
+      "statAvailability": "disponibilité",
+      "valuesTag": "Valeurs",
+      "certsTag": "Certifications",
+      "teamTag": "Équipe",
+      "certs": ["MLC 2006 Conforme", "STCW Certifié"],
+      "ctaTitle": "Travaillons ensemble",
+      "ctaSubtitle": "Contactez notre équipe pour discuter de votre projet maritime.",
+      "ctaButton": "Nous contacter"
     }
   }
 }

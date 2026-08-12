@@ -49,7 +49,7 @@ export default async function ConsignationPage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_50%,rgba(28,165,165,0.1)_0%,transparent_60%)]" aria-hidden="true" />
         <div className="container-mma section-padding relative z-10">
           <nav className="mb-8 flex items-center gap-2 text-sm font-body text-white/40" aria-label="Fil d'Ariane">
-            <Link href={`/${locale}`} className="hover:text-white transition-colors">Accueil</Link>
+            <Link href={`/${locale}`} className="hover:text-white transition-colors">{t('breadcrumbHome')}</Link>
             <span aria-hidden="true">/</span>
             <span className="text-gold">{t('heroTag')}</span>
           </nav>
@@ -65,7 +65,7 @@ export default async function ConsignationPage() {
               {t('heroSubtitle')}
             </p>
             <Link href={`/${locale}/contact`} className="btn-primary">
-              Demander un devis d&apos;escale
+              {t('ctaQuoteButton')}
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -90,7 +90,7 @@ export default async function ConsignationPage() {
           <ScrollReveal className="mb-12">
             <span className="section-tag mb-3">
               <span className="gold-line" aria-hidden="true" />
-              Prestations
+              {t('servicesTag')}
             </span>
             <h2 className="font-sans font-bold text-navy text-3xl sm:text-4xl">{t('servicesTitle')}</h2>
           </ScrollReveal>
@@ -146,11 +146,11 @@ export default async function ConsignationPage() {
       <section className="bg-navy py-14">
         <div className="container-mma section-padding flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">Prêt à planifier votre escale ?</h2>
-            <p className="text-white/50 font-body text-sm">Notre équipe répond dans l&apos;heure, 24h/24.</p>
+            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">{t('ctaTitle')}</h2>
+            <p className="text-white/50 font-body text-sm">{t('ctaSubtitle')}</p>
           </div>
           <Link href={`/${locale}/contact`} className="btn-primary flex-shrink-0">
-            Nous contacter
+            {t('ctaButton')}
           </Link>
         </div>
       </section>

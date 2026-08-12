@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect, useRef, useState } from 'react'
+import { useReducedMotion } from 'framer-motion'
 
 interface AnimatedCounterProps {
   target: string
@@ -11,6 +12,7 @@ export default function AnimatedCounter({ target, duration = 2000 }: AnimatedCou
   const [display, setDisplay] = useState('0')
   const [hasAnimated, setHasAnimated] = useState(false)
   const ref = useRef<HTMLSpanElement>(null)
+  const shouldReduceMotion = useReducedMotion()
 
   // Extract numeric portion and suffix/prefix
   const numericMatch = target.match(/[\d,.]+/)
@@ -31,8 +33,8 @@ export default function AnimatedCounter({ target, duration = 2000 }: AnimatedCou
           setHasAnimated(true)
           observer.disconnect()
 
-          if (isNaN(numericValue)) {
-            setDisplay(target)
+          if (isNaN(numericValue) || shouldReduceMotion) {
+            setDisplay(isNaN(numericValue) ? target : (Number.isInteger(numericValue) ? String(numericValue) : numericValue.toFixed(1)))
             return
           }
 

@@ -68,24 +68,24 @@ export default async function AboutPage() {
             <ScrollReveal direction="left">
               <span className="section-tag mb-4">
                 <span className="gold-line" aria-hidden="true" />
-                Histoire
+                {t('historyTag')}
               </span>
               <h2 className="font-sans font-bold text-navy text-2xl sm:text-3xl mb-5">{t('storyTitle')}</h2>
               <p className="text-navy/70 font-body text-base leading-relaxed mb-6">{t('storyText')}</p>
               <div className="flex items-center gap-4 pt-6 border-t border-navy/10">
                 <div className="text-center">
                   <p className="font-sans font-bold text-navy text-3xl">+15</p>
-                  <p className="text-navy/50 text-xs font-body">ans d&apos;expérience</p>
+                  <p className="text-navy/50 text-xs font-body">{t('statYears')}</p>
                 </div>
                 <div className="w-px h-10 bg-navy/10" aria-hidden="true" />
                 <div className="text-center">
                   <p className="font-sans font-bold text-navy text-3xl">6</p>
-                  <p className="text-navy/50 text-xs font-body">ports couverts</p>
+                  <p className="text-navy/50 text-xs font-body">{t('statPorts')}</p>
                 </div>
                 <div className="w-px h-10 bg-navy/10" aria-hidden="true" />
                 <div className="text-center">
                   <p className="font-sans font-bold text-navy text-3xl">24/7</p>
-                  <p className="text-navy/50 text-xs font-body">disponibilité</p>
+                  <p className="text-navy/50 text-xs font-body">{t('statAvailability')}</p>
                 </div>
               </div>
             </ScrollReveal>
@@ -103,7 +103,7 @@ export default async function AboutPage() {
           <ScrollReveal className="text-center mb-12">
             <span className="section-tag justify-center mb-4">
               <span className="gold-line" aria-hidden="true" />
-              Valeurs
+              {t('valuesTag')}
               <span className="gold-line" aria-hidden="true" />
             </span>
             <h2 className="font-sans font-bold text-white text-3xl sm:text-4xl">{t('valuesTitle')}</h2>
@@ -131,14 +131,14 @@ export default async function AboutPage() {
             <ScrollReveal>
               <span className="section-tag mb-4">
                 <span className="gold-line" aria-hidden="true" />
-                Certifications
+                {t('certsTag')}
               </span>
               <h2 className="font-sans font-bold text-navy text-2xl sm:text-3xl mb-5">{t('certTitle')}</h2>
               <p className="text-navy/70 font-body text-base leading-relaxed mb-8">{t('certText')}</p>
 
               {/* Certification badges */}
               <div className="flex flex-wrap gap-4">
-                {['APMF Agréé', 'MLC 2006 Conforme', 'STCW Certifié'].map((badge) => (
+                {(t.raw('certs') as string[]).map((badge) => (
                   <div
                     key={badge}
                     className="flex items-center gap-2 px-4 py-2.5 border border-gold/30 bg-gold/5 rounded-sm"
@@ -162,7 +162,7 @@ export default async function AboutPage() {
             <ScrollReveal>
               <span className="section-tag mb-4">
                 <span className="gold-line" aria-hidden="true" />
-                Équipe
+                {t('teamTag')}
               </span>
               <h2 className="font-sans font-bold text-navy text-2xl sm:text-3xl mb-5">{t('teamTitle')}</h2>
               <p className="text-navy/70 font-body text-base leading-relaxed">{t('teamText')}</p>
@@ -175,11 +175,11 @@ export default async function AboutPage() {
       <section className="bg-navy py-14">
         <div className="container-mma section-padding flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">Travaillons ensemble</h2>
-            <p className="text-white/50 font-body text-sm">Contactez notre équipe pour discuter de votre projet maritime.</p>
+            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">{t('ctaTitle')}</h2>
+            <p className="text-white/50 font-body text-sm">{t('ctaSubtitle')}</p>
           </div>
           <Link href={`/${locale}/contact`} className="btn-primary flex-shrink-0">
-            Nous contacter
+            {t('ctaButton')}
           </Link>
         </div>
       </section>

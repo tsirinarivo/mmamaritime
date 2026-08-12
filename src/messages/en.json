@@ -32,8 +32,8 @@
     "disponibilityLabel": "Round-the-clock availability",
     "experience": "15+ yrs",
     "experienceLabel": "Maritime experience",
-    "conformity": "APMF",
-    "conformityLabel": "Licensed agency"
+    "conformity": "MLC 2006",
+    "conformityLabel": "International compliance"
   },
   "services": {
     "title": "Our maritime services",
@@ -55,7 +55,7 @@
     },
     "manning": {
       "title": "Manning & Crewing",
-      "description": "Recruitment, selection and placement of qualified Malagasy seafarers in compliance with MLC 2006. APMF-licensed agency managing the full contractual lifecycle.",
+      "description": "Recruitment, selection and placement of qualified Malagasy seafarers in compliance with MLC 2006. Specialist agency managing the full contractual lifecycle.",
       "features": [
         "Recruitment of certificated and uncertificated seafarers",
         "STCW certificate and ship's document verification",
@@ -87,6 +87,7 @@
   "whyMma": {
     "title": "Why choose MMA?",
     "subtitle": "Fifteen years of active presence in Malagasy ports have shaped our expertise. We are not an intermediary — we are an operational extension of your shipping company on the ground.",
+    "subtitleShort": "Fifteen years of active presence in Malagasy ports…",
     "items": [
       {
         "title": "24/7 Responsiveness",
@@ -98,7 +99,7 @@
       },
       {
         "title": "Full compliance",
-        "description": "APMF licence, strict adherence to MLC 2006 and international conventions. Zero tolerance for non-compliance."
+        "description": "International maritime certifications, strict adherence to MLC 2006 and international conventions. Zero tolerance for non-compliance."
       },
       {
         "title": "International network",
@@ -109,6 +110,8 @@
   "ports": {
     "title": "Ports covered in Madagascar",
     "subtitle": "MMA operates in all six major commercial ports of Madagascar, from north to south.",
+    "locationTag": "Madagascar",
+    "mapCaption": "Madagascar — 6 ports covered",
     "list": [
       {
         "name": "Toamasina",
@@ -245,10 +248,13 @@
       "Antsiranana (Diego-Suarez)",
       "Nosy Be",
       "Toliara (Tulear)"
-    ]
+    ],
+    "addressTitle": "Address",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email"
   },
   "footer": {
-    "description": "APMF-licensed maritime agency providing ship agency, manning and port logistics across all major Malagasy ports for over 15 years.",
+    "description": "Maritime agency providing ship agency, manning and port logistics across all major Malagasy ports for over 15 years.",
     "servicesTitle": "Services",
     "portsTitle": "Ports",
     "infoTitle": "Information",
@@ -279,7 +285,7 @@
         },
         {
           "title": "Port coordination",
-          "description": "Berth reservation, pilotage, towage and mooring coordination. Permanent liaison with the Port Authority (SPAT) and APMF."
+          "description": "Berth reservation, pilotage, towage and mooring coordination. Permanent liaison with the Port Authority (SPAT)."
         },
         {
           "title": "Cargo operations",
@@ -306,6 +312,12 @@
           "description": "Detailed disbursement account with supporting documents for every expense. Pre-financing of disbursements and recovery within agreed deadlines."
         }
       ],
+      "breadcrumbHome": "Home",
+      "ctaQuoteButton": "Request an agency quote",
+      "servicesTag": "Services",
+      "ctaTitle": "Ready to plan your port call?",
+      "ctaSubtitle": "Our team responds within the hour, 24/7.",
+      "ctaButton": "Contact us",
       "faqTitle": "Frequently asked questions",
       "faqs": [
         {
@@ -333,7 +345,7 @@
     "manning": {
       "heroTag": "Manning & Crewing",
       "heroTitle": "Malagasy seafarer recruitment and placement",
-      "heroSubtitle": "APMF-licensed manning agency, fully compliant with the MLC 2006. Access to a pool of STCW-certified seafarers ready to embark.",
+      "heroSubtitle": "Manning agency fully compliant with the MLC 2006. Access to a pool of STCW-certified seafarers ready to embark.",
       "introTitle": "Malagasy seafarers: a recognised maritime workforce",
       "introText": "Madagascar has a strong maritime tradition and a qualified seafaring workforce. MMA gives you access to this pool while guaranteeing full compliance with Malagasy legal requirements and international conventions, notably MLC 2006 and STCW certifications.",
       "servicesTitle": "Our manning services",
@@ -344,7 +356,7 @@
         },
         {
           "title": "Certification verification",
-          "description": "Systematic verification of STCW certificates, seaman's books, ENG1 medical certificates and all regulatory documents. Direct liaison with APMF for authenticity checks."
+          "description": "Systematic verification of STCW certificates, seaman's books, ENG1 medical certificates and all regulatory documents. Rigorous authenticity verification."
         },
         {
           "title": "MLC 2006 contract management",
@@ -363,8 +375,14 @@
           "description": "Permanent point of contact between shipowner, seafarer and family. Emergency management: illness, repatriation, work accidents and contract disputes."
         }
       ],
+      "breadcrumbHome": "Home",
+      "ctaRecruitButton": "Recruit seafarers",
+      "servicesTag": "Services",
+      "ctaTitle": "Need qualified seafarers?",
+      "ctaSubtitle": "Contact our manning team for a quick quote.",
+      "ctaButton": "Contact us",
       "mlcTitle": "MLC 2006 Compliance",
-      "mlcText": "The Maritime Labour Convention 2006 (MLC 2006) is the cornerstone of our manning activity. We guarantee that every contract, every condition of employment and every repatriation fully complies with the provisions of this international convention. Our APMF-licensed status certifies our compliance with the Malagasy authorities.",
+      "mlcText": "The Maritime Labour Convention 2006 (MLC 2006) is the cornerstone of our manning activity. We guarantee that every contract, every condition of employment and every repatriation fully complies with the provisions of this international convention, attesting to our compliance with the Malagasy authorities.",
       "faqTitle": "Frequently asked questions",
       "faqs": [
         {
@@ -395,6 +413,13 @@
       "heroSubtitle": "Integrated supply chain management between Malagasy ports and the hinterland. Freight, handling, customs and storage.",
       "introTitle": "Port logistics: the critical link in your supply chain",
       "introText": "Logistics performance in Madagascar requires intimate local knowledge, solid relationships with customs administrations and seamless coordination between the various port stakeholders. MMA offers you a turnkey solution, from cargo discharge to final delivery.",
+      "breadcrumbHome": "Home",
+      "ctaQuoteButton": "Request a logistics quote",
+      "servicesTag": "Services",
+      "faqTag": "FAQ",
+      "ctaTitle": "Need logistics solutions?",
+      "ctaSubtitle": "Get a personalised quote within 24 hours.",
+      "ctaButton": "Contact us",
       "servicesTitle": "Our logistics services",
       "servicesItems": [
         {
@@ -464,7 +489,10 @@
       "nosybeTitle": "Nosy Be — The prestige vessel port of call",
       "nosybeText": "Nosy Be is Madagascar's main maritime tourism destination. Hell-Ville port welcomes pleasure yachts, cruise ships and scientific expedition vessels. MMA provides entry/clearance, provisioning and authority coordination services for these special-status vessels.",
       "toliaraTitle": "Toliara — The gateway to the Deep South",
-      "toliaraText": "Toliara (Tulear) on the south-west coast of Madagascar is the port of the Atsimo-Andrefana region. The port primarily handles general cargo, salt and fishing products. Its infrastructure is undergoing modernisation. MMA maintains a regular presence and can handle any type of commercial port call."
+      "toliaraText": "Toliara (Tulear) on the south-west coast of Madagascar is the port of the Atsimo-Andrefana region. The port primarily handles general cargo, salt and fishing products. Its infrastructure is undergoing modernisation. MMA maintains a regular presence and can handle any type of commercial port call.",
+      "ctaTitle": "Planning a call at one of these ports?",
+      "ctaSubtitle": "Our team is available 24/7 to assist you.",
+      "ctaButton": "Request a port call"
     },
     "about": {
       "heroTag": "About MMA",
@@ -494,9 +522,20 @@
         }
       ],
       "certTitle": "Licences and certifications",
-      "certText": "MMA is licensed by the Autorité Portuaire Maritime et Fluviale (APMF), the Malagasy regulatory body for the maritime sector. We are also compliant with the requirements of the Maritime Labour Convention 2006 (MLC 2006) for our manning activities.",
+      "certText": "MMA operates in full compliance with Malagasy maritime regulations. We comply with the requirements of the Maritime Labour Convention 2006 (MLC 2006) for our manning activities and STCW conventions for our crews.",
       "teamTitle": "Our team",
-      "teamText": "Our team is composed of maritime professionals: Master Mariners, Merchant Navy Officers, port agents and logistics specialists. We speak your language — both maritimely and literally (French, English, Malagasy)."
+      "teamText": "Our team is composed of maritime professionals: Master Mariners, Merchant Navy Officers, port agents and logistics specialists. We speak your language — both maritimely and literally (French, English, Malagasy).",
+      "historyTag": "History",
+      "statYears": "years of experience",
+      "statPorts": "ports covered",
+      "statAvailability": "availability",
+      "valuesTag": "Values",
+      "certsTag": "Certifications",
+      "teamTag": "Team",
+      "certs": ["MLC 2006 Compliant", "STCW Certified"],
+      "ctaTitle": "Let's work together",
+      "ctaSubtitle": "Contact our team to discuss your maritime project.",
+      "ctaButton": "Contact us"
     }
   }
 }

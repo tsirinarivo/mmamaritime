@@ -1,5 +1,5 @@
 import { Metadata } from 'next'
-import { getTranslations, getLocale } from 'next-intl/server'
+import { getTranslations } from 'next-intl/server'
 import ContactSection from '@/components/sections/ContactSection'
 
 export async function generateMetadata({
@@ -16,7 +16,6 @@ export async function generateMetadata({
 }
 
 export default async function ContactPage() {
-  const locale = await getLocale()
   const t = await getTranslations('contact')
 
   return (

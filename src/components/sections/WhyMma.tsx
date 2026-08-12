@@ -58,7 +58,7 @@ export default async function WhyMma() {
                 ))}
               </div>
               <p className="text-navy/60 text-sm font-body">
-                {t.raw('subtitle').toString().split(' ').slice(0, 6).join(' ') + '…'}
+                {t('subtitleShort')}
               </p>
             </div>
           </ScrollReveal>

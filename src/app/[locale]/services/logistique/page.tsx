@@ -49,7 +49,7 @@ export default async function LogistiquePage() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_80%,rgba(28,165,165,0.1)_0%,transparent_60%)]" aria-hidden="true" />
         <div className="container-mma section-padding relative z-10">
           <nav className="mb-8 flex items-center gap-2 text-sm font-body text-white/40" aria-label="Fil d'Ariane">
-            <Link href={`/${locale}`} className="hover:text-white transition-colors">Accueil</Link>
+            <Link href={`/${locale}`} className="hover:text-white transition-colors">{t('breadcrumbHome')}</Link>
             <span aria-hidden="true">/</span>
             <span className="text-gold">{t('heroTag')}</span>
           </nav>
@@ -65,7 +65,7 @@ export default async function LogistiquePage() {
               {t('heroSubtitle')}
             </p>
             <Link href={`/${locale}/contact`} className="btn-primary">
-              Demander un devis logistique
+              {t('ctaQuoteButton')}
             </Link>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default async function LogistiquePage() {
           <ScrollReveal className="mb-12">
             <span className="section-tag mb-3">
               <span className="gold-line" aria-hidden="true" />
-              Prestations
+              {t('servicesTag')}
             </span>
             <h2 className="font-sans font-bold text-navy text-3xl sm:text-4xl">{t('servicesTitle')}</h2>
           </ScrollReveal>
@@ -113,7 +113,7 @@ export default async function LogistiquePage() {
           <ScrollReveal className="mb-12">
             <span className="section-tag mb-3">
               <span className="gold-line" aria-hidden="true" />
-              FAQ
+              {t('faqTag')}
             </span>
             <h2 className="font-sans font-bold text-navy text-3xl sm:text-4xl">{t('faqTitle')}</h2>
           </ScrollReveal>
@@ -141,11 +141,11 @@ export default async function LogistiquePage() {
       <section className="bg-navy py-14">
         <div className="container-mma section-padding flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">Besoin de solutions logistiques ?</h2>
-            <p className="text-white/50 font-body text-sm">Obtenez un devis personnalisé en moins de 24 heures.</p>
+            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">{t('ctaTitle')}</h2>
+            <p className="text-white/50 font-body text-sm">{t('ctaSubtitle')}</p>
           </div>
           <Link href={`/${locale}/contact`} className="btn-primary flex-shrink-0">
-            Nous contacter
+            {t('ctaButton')}
           </Link>
         </div>
       </section>

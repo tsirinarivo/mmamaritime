@@ -142,11 +142,11 @@ export default async function PortsPage() {
       <section className="bg-navy py-14">
         <div className="container-mma section-padding flex flex-col sm:flex-row items-center justify-between gap-6">
           <div>
-            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">Planifier une escale dans l&apos;un de ces ports ?</h2>
-            <p className="text-white/50 font-body text-sm">Notre équipe est disponible 24h/24 pour vous accompagner.</p>
+            <h2 className="font-sans font-bold text-white text-xl sm:text-2xl mb-1">{t('ctaTitle')}</h2>
+            <p className="text-white/50 font-body text-sm">{t('ctaSubtitle')}</p>
           </div>
           <Link href={`/${locale}/contact`} className="btn-primary flex-shrink-0">
-            Demander une escale
+            {t('ctaButton')}
           </Link>
         </div>
       </section>

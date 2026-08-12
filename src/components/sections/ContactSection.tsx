@@ -86,7 +86,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-sans font-semibold text-navy text-sm mb-0.5">Adresse</p>
+                  <p className="font-sans font-semibold text-navy text-sm mb-0.5">{t('addressTitle')}</p>
                   <address className="not-italic text-navy/60 text-sm font-body">{t('address')}</address>
                 </div>
               </div>
@@ -99,7 +99,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-sans font-semibold text-navy text-sm mb-0.5">Téléphone</p>
+                  <p className="font-sans font-semibold text-navy text-sm mb-0.5">{t('phoneTitle')}</p>
                   <a href="tel:+261371777777" className="text-navy/60 text-sm font-body hover:text-gold transition-colors">
                     {t('phone')}
                   </a>
@@ -114,7 +114,7 @@ export default function ContactSection() {
                   </svg>
                 </div>
                 <div>
-                  <p className="font-sans font-semibold text-navy text-sm mb-0.5">Email</p>
+                  <p className="font-sans font-semibold text-navy text-sm mb-0.5">{t('emailTitle')}</p>
                   <a href="mailto:contact@mmamaritime.com" className="text-navy/60 text-sm font-body hover:text-gold transition-colors">
                     {t('email')}
                   </a>
